@@ -39,7 +39,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         ┌────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┐
         │    │F1  │F2  │F3  │F4  │PSCR│CALC│P7  │P8  │P9  │P-  │    │
         ├────┼────┼────┼────┼────┼────┼────┼────┼────┼────┼────┼────┤
-        │    │F5  │F6  │F7  │F8  │SLCK│    │P4  │P5  │P6  │P+  │DEL │
+        │    │F5  │F6  │F7  │F8  │SLCK│XXXX│P4  │P5  │P6  │P+  │DEL │
         ├────┼────┼────┼────┼────┼────┼────┼────┼────┼────┼────┼────┤
         │    │F9  │F10 │F11 │F12 │PAUS│NLCK│P1  │P2  │P3  │P/  │RSPE│
         ├────┼────┼────┼────┼────┼────┴────┼────┼────┼────┼────┼────┤
@@ -48,7 +48,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [_LOWER] = LAYOUT_planck_grid(
         _______, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_PSCR, KC_CALC, KC_P7,   KC_P8,   KC_P9,   KC_PMNS, _______,
-        _______, KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_SLCK, _______, KC_P4,   KC_P5,   KC_P6,   KC_PPLS, KC_DEL,
+        _______, KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_SLCK, XXXXXXX, KC_P4,   KC_P5,   KC_P6,   KC_PPLS, KC_DEL,
         _______, KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_PAUS, KC_NLCK, KC_P1,   KC_P2,   KC_P3,   KC_PSLS, MT_RSPE,
         _______, _______, _______, _______, _______, _______, _______, LT_RAP0, KC_P0,   KC_PDOT, KC_PAST, KC_PENT
     ),
@@ -63,7 +63,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         ├────┼────┼────┼────┼────┼────┴────┼────┼────┼────┼────┼────┤
         │    │RSET│    │    │    │         │    │RALT│RGUI│APP │RCTL│
         └────┴────┴────┴────┴────┴─────────┴────┴────┴────┴────┴────┘ */
-        
+
     [_RAISE] = LAYOUT_planck_grid(
         KC_GRV,  KC_1,    KC_2,    KC_3,    KC_4,    _______, _______, KC_HOME, KC_UP,   KC_END,  KC_PGUP, KC_INS,
         _______, KC_5,    KC_6,    KC_7,    KC_8,    KC_NUBS, KC_NUHS, KC_LEFT, KC_DOWN, KC_RGHT, KC_PGDN, KC_DEL,
